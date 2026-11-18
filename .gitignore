@@ -1,0 +1,13 @@
+# Server and demo state: contains secrets and private keys, never commit.
+server_data/
+demo_data/
+*.pem
+
+# Python build / tooling artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
